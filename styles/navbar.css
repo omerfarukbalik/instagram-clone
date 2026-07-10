@@ -1,0 +1,39 @@
+.nav {
+    border: 1px solid grey;
+    padding: 2vh 2vh 1vh 2vh;
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.nav__list-item {
+    font-size: 2vh;
+}
+
+.nav__list-item:first-child {
+    font-size: 5vh;
+}
+
+.nav__list-item:nth-child(2) {
+    border: 1px solid grey;
+    
+}
+
+.nav__list-item:nth-child(2) input{
+    border: 0;
+    padding: 0.5vh;
+}
+
+.nav__list-item img {
+    width: 5vh;
+    height: auto;
+}
+
+.profilepicture {
+    border-radius: 50%;
+}
