@@ -1,10 +1,10 @@
 .side {
-    width: 40%;
-    
-    padding: 0vh 2vh;
+    flex: 0 0 22rem;
+    align-self: flex-start;
+    position: sticky;
+    top: 5.25rem;
 
-    position: fixed;
-    right: 0;
+    padding: 0 1rem;
 }
 
 .side__title {
@@ -21,8 +21,8 @@
     display: flex;
     justify-content: space-between;
 
-    padding: 1vh 1vh 1vh 0vh;
-    margin-bottom: 1vh;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    margin-bottom: 0.5rem;
 }
 
 .suggestion__user {
@@ -30,12 +30,12 @@
 }
 
 .suggestion__image {
-    width: 5vh;
+    width: 2.5rem;
     height: auto;
-    margin-right: 1.1vh;
+    margin-right: 0.55rem;
     background: var(--gradient-brand);
     border-radius: 50%;
-    padding: 0.1vh;
+    padding: 0.05rem;
 }
 
 .suggestion__info {
@@ -45,6 +45,7 @@
 
 .suggestion__name {
     font-size: 1rem;
+    font-weight: 700;
 }
 
 .suggestion__relation {
@@ -58,18 +59,18 @@
 }
 
 .side__footer {
-    padding: 1vh;
+    padding: 0.5rem;
     
 }
 
 .side__footer-list {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 1vh;
+    margin-bottom: 0.5rem;
 }
 
 .side__footer-item {
-    margin-right: 1vh;
+    margin-right: 0.5rem;
     color: var(--text-secondary);
 }
 
@@ -82,7 +83,7 @@
     color: var(--text-secondary);
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 60rem) {
     .side {
         display: none;
     }

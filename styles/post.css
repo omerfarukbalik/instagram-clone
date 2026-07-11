@@ -1,24 +1,23 @@
 .post {
-    border: 0.1vh solid var(--border-post);
-    border-style: outset;
+    border: 1px outset var(--border-post);
     background-color: var(--bg-surface);
-    margin: 2vh 0;;
+    margin: 1rem 0;;
 }
 
 .post__header {
     display: flex;
     flex-direction: row;
-    padding: 1vh;
-    
+    padding: 0.5rem;
+
 }
 
 .post__userimg {
-    width: 5vh;
+    width: 2.5rem;
     height: auto;
-    margin-right: 1vh;
+    margin-right: 0.5rem;
     background: var(--gradient-brand);
     border-radius: 50%;
-    padding: 0.1vh;
+    padding: 0.05rem;
 }
 
 .post__userinfo {
@@ -27,36 +26,23 @@
 }
 
 .post__username {
-    font-size: 2vh;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 .post__location {
-    font-size: 1.3vh;
-}
-
-.post__image {
-    
+    font-size: 0.65rem;
+    font-weight: 700;
 }
 
 .post__footer {
-    padding: 2vh 1vh;
+    padding: 1rem 0.5rem;
 }
 
 .post__actions {
-    font-size: 2.9vh;
+    font-size: 1.45rem;
     display: flex;
     justify-content:space-between;
-}
-
-.post__icons {
-}
-
-.post__likes {
-    
-}
-
-.post__author {
-    
 }
 
 .post__comments-link {
@@ -66,12 +52,12 @@
 .post__time {
     color: var(--text-secondary);
     font-size: 0.8rem;
-    margin-bottom: 2vh;
+    margin-bottom: 1rem;
 }
 
 .post__comments {
     margin: 0 auto;
-    padding: 1vh;
+    padding: 0.5rem;
     border-top: 1px solid var(--border-comments);
     display: flex;
     justify-content: space-between;
@@ -84,5 +70,5 @@
 .post__comment-button {
     color: var(--accent-teal-dark);
     font-weight: 550;
-    margin-right: 1vh;
+    margin-right: 0.5rem;
 }

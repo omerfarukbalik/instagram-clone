@@ -1,13 +1,14 @@
 .feed {
-    width: 60%;
+    flex: 1 1 0;
+    min-width: 0;
 }
 
 .story {
     display: flex;
 
-    min-width: 38vh;
-    border: 0.1vh solid var(--border-story);
-    padding: 1vh;
+    min-width: 19rem;
+    border: 1px solid var(--border-story);
+    padding: 0.5rem;
     background-color: var(--bg-surface);
 
     overflow-x: auto;
@@ -20,7 +21,7 @@
 }
 
 .story::-webkit-scrollbar {
-    height: 0.6vh;
+    height: 0.3rem;
 }
 
 .story::-webkit-scrollbar-track {
@@ -29,7 +30,7 @@
 
 .story::-webkit-scrollbar-thumb {
     background-color: var(--border-story);
-    border-radius: 1vh;
+    border-radius: 0.5rem;
 }
 
 .story__img {
@@ -38,10 +39,10 @@
     width: clamp(2.8rem, 8vw, 4rem);
     height: clamp(2.8rem, 8vw, 4rem);
 
-    margin-right: 3vh;
+    margin-right: 1.5rem;
     background: var(--gradient-brand);
     border-radius: 50%;
-    padding: 0.3vh;
+    padding: 0.15rem;
 }
 
 .story__img:last-child {
@@ -53,11 +54,8 @@
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    border: 0.2vh solid var(--bg-surface);
+    border: 2px solid var(--bg-surface);
 }
 
-@media (max-width: 48rem) {
-    .feed {
-        width: 100%;
-    }
-}
+
+
