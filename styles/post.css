@@ -1,7 +1,7 @@
 .post {
-    border: 0.1vh solid rgba(59, 57, 57, 0.164);
+    border: 0.1vh solid var(--border-post);
     border-style: outset;
-    background-color: white;
+    background-color: var(--bg-surface);
     margin: 2vh 0;;
 }
 
@@ -16,7 +16,7 @@
     width: 5vh;
     height: auto;
     margin-right: 1vh;
-    background: linear-gradient( 45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    background: var(--gradient-brand);
     border-radius: 50%;
     padding: 0.1vh;
 }
@@ -64,7 +64,7 @@
 }
 
 .post__time {
-    color: grey;
+    color: var(--text-secondary);
     font-size: 0.8rem;
     margin-bottom: 2vh;
 }
@@ -72,7 +72,7 @@
 .post__comments {
     margin: 0 auto;
     padding: 1vh;
-    border-top: 1px solid rgba(128, 128, 128, 0.356);
+    border-top: 1px solid var(--border-comments);
     display: flex;
     justify-content: space-between;
 }
@@ -82,7 +82,7 @@
 }
 
 .post__comment-button {
-    color: rgb(9, 71, 90);
+    color: var(--accent-teal-dark);
     font-weight: 550;
     margin-right: 1vh;
 }

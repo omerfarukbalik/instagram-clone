@@ -4,19 +4,60 @@
 
 .story {
     display: flex;
-    flex-direction: row;
-    border: 0.1vh solid rgb(223, 208, 208);
+
+    min-width: 38vh;
+    border: 0.1vh solid var(--border-story);
     padding: 1vh;
-    background-color: white;
+    background-color: var(--bg-surface);
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-story) var(--bg-surface);
+}
+
+.story::-webkit-scrollbar {
+    height: 0.6vh;
+}
+
+.story::-webkit-scrollbar-track {
+    background: var(--bg-surface);
+}
+
+.story::-webkit-scrollbar-thumb {
+    background-color: var(--border-story);
+    border-radius: 1vh;
 }
 
 .story__img {
+    flex: 0 0 auto;
+
+    width: clamp(2.8rem, 8vw, 4rem);
+    height: clamp(2.8rem, 8vw, 4rem);
+
     margin-right: 3vh;
-    background: linear-gradient( 45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    background: var(--gradient-brand);
     border-radius: 50%;
     padding: 0.3vh;
 }
 
 .story__img:last-child {
     margin-right: 0;
+}
+
+.story__img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0.2vh solid var(--bg-surface);
+}
+
+@media (max-width: 48rem) {
+    .feed {
+        width: 100%;
+    }
 }

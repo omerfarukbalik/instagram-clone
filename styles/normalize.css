@@ -1,0 +1,36 @@
+:root {
+  /* backgrounds */
+  --bg-page: #fafafa;
+  --bg-surface: #ffffff;
+  --bg-input: #fafafa;
+
+  /* borders */
+  --border-default: rgb(218, 217, 217);
+  --border-card: rgba(7, 7, 7, 0.24);
+  --border-divider: #dddddd;
+  --border-ring-inner: #ffffff;
+  --border-story: rgb(223, 208, 208);
+  --border-post: rgba(59, 57, 57, 0.164);
+  --border-comments: rgba(128, 128, 128, 0.356);
+
+  /* text */
+  --text-primary: #262626;
+  --text-username: #4d4d4f;
+  --text-secondary: #777777;
+  --text-input: rgb(77, 77, 77);
+  --text-icon-muted: rgb(88, 88, 88);
+  --text-muted: #999999;
+  --text-heading-muted: rgb(100, 100, 100);
+  --text-timestamp: rgb(163, 163, 163);
+  --text-placeholder: rgb(172, 172, 172);
+  --text-nav: #000000;
+
+  /* accents */
+  --accent-blue: #1d92ff;
+  --accent-blue-soft: #1d92ffcb;
+  --accent-hover: #ff0000;
+  --accent-teal: rgb(14, 106, 148);
+  --accent-teal-dark: rgb(9, 71, 90);
+  --gradient-story: linear-gradient(to right, red, orange);
+  --gradient-brand: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}

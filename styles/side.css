@@ -1,6 +1,10 @@
 .side {
     width: 40%;
-    padding: 2vh;
+    
+    padding: 0vh 2vh;
+
+    position: fixed;
+    right: 0;
 }
 
 .side__title {
@@ -17,7 +21,7 @@
     display: flex;
     justify-content: space-between;
 
-    padding: 1vh;
+    padding: 1vh 1vh 1vh 0vh;
     margin-bottom: 1vh;
 }
 
@@ -28,8 +32,8 @@
 .suggestion__image {
     width: 5vh;
     height: auto;
-    margin-right: 1vh;
-    background: linear-gradient( 45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    margin-right: 1.1vh;
+    background: var(--gradient-brand);
     border-radius: 50%;
     padding: 0.1vh;
 }
@@ -50,5 +54,36 @@
 .suggestion__button {
     font-size: 1rem;
     font-weight: 500;
-    color: rgb(14, 106, 148);
+    color: var(--accent-teal);
+}
+
+.side__footer {
+    padding: 1vh;
+    
+}
+
+.side__footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1vh;
+}
+
+.side__footer-item {
+    margin-right: 1vh;
+    color: var(--text-secondary);
+}
+
+.side__footer-item:hover {
+    color: var(--accent-hover);
+}
+
+.side__footer-copyright {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+@media (max-width: 48rem) {
+    .side {
+        display: none;
+    }
 }

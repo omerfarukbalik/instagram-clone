@@ -1,6 +1,7 @@
 .nav {
-    border: 1px solid grey;
+    border-bottom: 1px solid var(--text-secondary);
     padding: 2vh 12.5% 1vh 12.5%;
+    
 }
 
 .nav__list {
@@ -20,7 +21,7 @@
 }
 
 .nav__list-item:nth-child(2) {
-    border: 1px solid grey;
+    border: 1px solid var(--text-secondary);
     
 }
 
@@ -33,4 +34,14 @@
     width: 5vh;
     height: auto;
     border-radius: 50%;
+}
+
+@media (max-width: 36rem) {
+    .nav {
+        padding: 2vh 3.5% 1vh 3.5%;
+    }
+
+    .nav__list-item:nth-child(2) {
+        display: none;
+    }
 }
