@@ -15,10 +15,11 @@
 
 <body>
     <header class="header">
+        <h1 class="sr-only">Instagram</h1>
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__list-item">
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Instagram home"><i class="fa-brands fa-instagram"></i></a>
                 </li>
 
                 <li class="nav__list-item">
@@ -28,7 +29,7 @@
                 </li>
 
                 <li class="nav__list-item">
-                    <a href="#"><img class="profilepicture" src="/assets/images/profile1.png" alt="profile-picture"></a>
+                    <a href="#" aria-label="Your profile"><img class="profilepicture" src="/assets/images/profile1.png" alt="profile-picture"></a>
                 </li>
             </ul>
         </nav>
@@ -37,36 +38,36 @@
     <main class="main">
         <div class="feed">
             <div class="story">
-                <a class="story__img" href=""><img src="/assets/images/profile1.png" alt=""></a>
+                <a class="story__img" href="#" aria-label="View story"><img src="/assets/images/profile1.png" alt=""></a>
 
-                <a class="story__img" href=""><img src="/assets/images/profile1.png" alt=""></a>
+                <a class="story__img" href="#" aria-label="View story"><img src="/assets/images/profile1.png" alt=""></a>
 
-                <a class="story__img" href=""><img src="/assets/images/profile1.png" alt=""></a>
+                <a class="story__img" href="#" aria-label="View story"><img src="/assets/images/profile1.png" alt=""></a>
 
-                <a class="story__img" href=""><img src="/assets/images/profile1.png" alt=""></a>
+                <a class="story__img" href="#" aria-label="View story"><img src="/assets/images/profile1.png" alt=""></a>
 
-                <a class="story__img" href=""><img src="/assets/images/profile1.png" alt=""></a>
+                <a class="story__img" href="#" aria-label="View story"><img src="/assets/images/profile1.png" alt=""></a>
 
-                <a class="story__img" href=""><img src="/assets/images/profile1.png" alt=""></a>
+                <a class="story__img" href="#" aria-label="View story"><img src="/assets/images/profile1.png" alt=""></a>
 
-                <a class="story__img" href=""><img src="/assets/images/profile1.png" alt=""></a>
+                <a class="story__img" href="#" aria-label="View story"><img src="/assets/images/profile1.png" alt=""></a>
 
-                <a class="story__img" href=""><img src="/assets/images/profile1.png" alt=""></a>
+                <a class="story__img" href="#" aria-label="View story"><img src="/assets/images/profile1.png" alt=""></a>
 
-                <a class="story__img" href=""><img src="/assets/images/profile1.png" alt=""></a>
+                <a class="story__img" href="#" aria-label="View story"><img src="/assets/images/profile1.png" alt=""></a>
 
-                <a class="story__img" href=""><img src="/assets/images/profile1.png" alt=""></a>
+                <a class="story__img" href="#" aria-label="View story"><img src="/assets/images/profile1.png" alt=""></a>
             </div>
 
-            <div class="post">
+            <article class="post">
                 <div class="post__header">
-                    <a class="post__userimg-link" href=""><img class="post__userimg" src="/assets/images/profile1.png"
+                    <a class="post__userimg-link" href="#" aria-label="View John Doe's profile"><img class="post__userimg" src="/assets/images/profile1.png"
                             alt=""></a>
 
                     <div class="post__userinfo">
-                        <h1 class="post__username"><a href="">John Doe</a></h1>
+                        <p class="post__username"><a href="#">John Doe</a></p>
 
-                        <h2 class="post__location"><a href="">California, USA</a></h2>
+                        <p class="post__location"><a href="#">California, USA</a></p>
                     </div>
                 </div>
 
@@ -75,47 +76,44 @@
                 <div class="post__footer">
                     <div class="post__actions">
                         <div>
-                            <a class="post__icons" href=""><i class="fa-regular fa-heart"></i></a>
+                            <button class="post__icons" type="button" aria-label="Like this post"><i class="fa-regular fa-heart"></i></button>
 
-                            <a class="post__icons" href=""><i class="fa-regular fa-comment fa-flip-horizontal"
-                                    style="color: rgb(0, 0, 0);"></i></a>
+                            <button class="post__icons" type="button" aria-label="Comment on this post"><i class="fa-regular fa-comment fa-flip-horizontal"></i></button>
 
-                            <a class="post__icons" href=""><i class="fa-regular fa-paper-plane"
-                                    style="color: rgb(0, 0, 0);"></i></a>
+                            <button class="post__icons" type="button" aria-label="Share this post"><i class="fa-regular fa-paper-plane"></i></button>
                         </div>
 
-                        <a class="post__icons" href=""><i class="fa-regular fa-bookmark"
-                                style="color: rgb(0, 0, 0);"></i></a>
+                        <button class="post__icons" type="button" aria-label="Save post"><i class="fa-regular fa-bookmark"></i></button>
                     </div>
 
-                    <p class="post__likes"><a href="">203 likes</a></p>
+                    <p class="post__likes"><button type="button">203 likes</button></p>
 
-                    <a class="post__author" href=""><b>John Doe</b></a>
+                    <a class="post__author" href="#"><b>John Doe</b></a>
 
-                    <a class="post__comments-link" href="">View all 32 comments</a>
+                    <a class="post__comments-link" href="#">View all 32 comments</a>
 
                     <p class="post__time">2 HOURS AGO</p>
 
                     <div class="post__comments">
-                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment">
+                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment" aria-label="Add a comment">
 
-                        <a class="post__comment-button" href=""><button>Post</button></a>
+                        <button class="post__comment-button" type="button">Post</button>
 
                     </div>
                 </div>
 
 
-            </div>
+            </article>
 
-            <div class="post">
+            <article class="post">
                 <div class="post__header">
-                    <a class="post__userimg-link" href=""><img class="post__userimg" src="/assets/images/profile1.png"
+                    <a class="post__userimg-link" href="#" aria-label="View John Doe's profile"><img class="post__userimg" src="/assets/images/profile1.png"
                             alt=""></a>
 
                     <div class="post__userinfo">
-                        <h1 class="post__username"><a href="">John Doe</a></h1>
+                        <p class="post__username"><a href="#">John Doe</a></p>
 
-                        <h2 class="post__location"><a href="">California, USA</a></h2>
+                        <p class="post__location"><a href="#">California, USA</a></p>
                     </div>
                 </div>
 
@@ -124,48 +122,44 @@
                 <div class="post__footer">
                     <div class="post__actions">
                         <div>
-                            <a class="post__icons" href=""><i class="fa-regular fa-heart"
-                                    style="color: rgb(0, 0, 0);"></i></a>
+                            <button class="post__icons" type="button" aria-label="Like this post"><i class="fa-regular fa-heart"></i></button>
 
-                            <a class="post__icons" href=""><i class="fa-regular fa-comment fa-flip-horizontal"
-                                    style="color: rgb(0, 0, 0);"></i></a>
+                            <button class="post__icons" type="button" aria-label="Comment on this post"><i class="fa-regular fa-comment fa-flip-horizontal"></i></button>
 
-                            <a class="post__icons" href=""><i class="fa-regular fa-paper-plane"
-                                    style="color: rgb(0, 0, 0);"></i></a>
+                            <button class="post__icons" type="button" aria-label="Share this post"><i class="fa-regular fa-paper-plane"></i></button>
                         </div>
 
-                        <a class="post__icons" href=""><i class="fa-regular fa-bookmark"
-                                style="color: rgb(0, 0, 0);"></i></a>
+                        <button class="post__icons" type="button" aria-label="Save post"><i class="fa-regular fa-bookmark"></i></button>
                     </div>
 
-                    <p class="post__likes"><a href="">203 likes</a></p>
+                    <p class="post__likes"><button type="button">203 likes</button></p>
 
-                    <a class="post__author" href=""><b>John Doe</b></a>
+                    <a class="post__author" href="#"><b>John Doe</b></a>
 
-                    <a class="post__comments-link" href="">View all 32 comments</a>
+                    <a class="post__comments-link" href="#">View all 32 comments</a>
 
                     <p class="post__time">2 HOURS AGO</p>
 
                     <div class="post__comments">
-                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment">
+                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment" aria-label="Add a comment">
 
-                        <a class="post__comment-button" href=""><button>Post</button></a>
+                        <button class="post__comment-button" type="button">Post</button>
 
                     </div>
                 </div>
 
 
-            </div>
+            </article>
 
-            <div class="post">
+            <article class="post">
                 <div class="post__header">
-                    <a class="post__userimg-link" href=""><img class="post__userimg" src="/assets/images/profile1.png"
+                    <a class="post__userimg-link" href="#" aria-label="View John Doe's profile"><img class="post__userimg" src="/assets/images/profile1.png"
                             alt=""></a>
 
                     <div class="post__userinfo">
-                        <h1 class="post__username"><a href="">John Doe</a></h1>
+                        <p class="post__username"><a href="#">John Doe</a></p>
 
-                        <h2 class="post__location"><a href="">California, USA</a></h2>
+                        <p class="post__location"><a href="#">California, USA</a></p>
                     </div>
                 </div>
 
@@ -174,48 +168,44 @@
                 <div class="post__footer">
                     <div class="post__actions">
                         <div>
-                            <a class="post__icons" href=""><i class="fa-regular fa-heart"
-                                    style="color: rgb(0, 0, 0);"></i></a>
+                            <button class="post__icons" type="button" aria-label="Like this post"><i class="fa-regular fa-heart"></i></button>
 
-                            <a class="post__icons" href=""><i class="fa-regular fa-comment fa-flip-horizontal"
-                                    style="color: rgb(0, 0, 0);"></i></a>
+                            <button class="post__icons" type="button" aria-label="Comment on this post"><i class="fa-regular fa-comment fa-flip-horizontal"></i></button>
 
-                            <a class="post__icons" href=""><i class="fa-regular fa-paper-plane"
-                                    style="color: rgb(0, 0, 0);"></i></a>
+                            <button class="post__icons" type="button" aria-label="Share this post"><i class="fa-regular fa-paper-plane"></i></button>
                         </div>
 
-                        <a class="post__icons" href=""><i class="fa-regular fa-bookmark"
-                                style="color: rgb(0, 0, 0);"></i></a>
+                        <button class="post__icons" type="button" aria-label="Save post"><i class="fa-regular fa-bookmark"></i></button>
                     </div>
 
-                    <p class="post__likes"><a href="">203 likes</a></p>
+                    <p class="post__likes"><button type="button">203 likes</button></p>
 
-                    <a class="post__author" href=""><b>John Doe</b></a>
+                    <a class="post__author" href="#"><b>John Doe</b></a>
 
-                    <a class="post__comments-link" href="">View all 32 comments</a>
+                    <a class="post__comments-link" href="#">View all 32 comments</a>
 
                     <p class="post__time">2 HOURS AGO</p>
 
                     <div class="post__comments">
-                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment">
+                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment" aria-label="Add a comment">
 
-                        <a class="post__comment-button" href=""><button>Post</button></a>
+                        <button class="post__comment-button" type="button">Post</button>
 
                     </div>
                 </div>
 
 
-            </div>
+            </article>
 
-            <div class="post">
+            <article class="post">
                 <div class="post__header">
-                    <a class="post__userimg-link" href=""><img class="post__userimg" src="/assets/images/profile1.png"
+                    <a class="post__userimg-link" href="#" aria-label="View John Doe's profile"><img class="post__userimg" src="/assets/images/profile1.png"
                             alt=""></a>
 
                     <div class="post__userinfo">
-                        <h1 class="post__username"><a href="">John Doe</a></h1>
+                        <p class="post__username"><a href="#">John Doe</a></p>
 
-                        <h2 class="post__location"><a href="">California, USA</a></h2>
+                        <p class="post__location"><a href="#">California, USA</a></p>
                     </div>
                 </div>
 
@@ -224,48 +214,44 @@
                 <div class="post__footer">
                     <div class="post__actions">
                         <div>
-                            <a class="post__icons" href=""><i class="fa-regular fa-heart"
-                                    style="color: rgb(0, 0, 0);"></i></a>
+                            <button class="post__icons" type="button" aria-label="Like this post"><i class="fa-regular fa-heart"></i></button>
 
-                            <a class="post__icons" href=""><i class="fa-regular fa-comment fa-flip-horizontal"
-                                    style="color: rgb(0, 0, 0);"></i></a>
+                            <button class="post__icons" type="button" aria-label="Comment on this post"><i class="fa-regular fa-comment fa-flip-horizontal"></i></button>
 
-                            <a class="post__icons" href=""><i class="fa-regular fa-paper-plane"
-                                    style="color: rgb(0, 0, 0);"></i></a>
+                            <button class="post__icons" type="button" aria-label="Share this post"><i class="fa-regular fa-paper-plane"></i></button>
                         </div>
 
-                        <a class="post__icons" href=""><i class="fa-regular fa-bookmark"
-                                style="color: rgb(0, 0, 0);"></i></a>
+                        <button class="post__icons" type="button" aria-label="Save post"><i class="fa-regular fa-bookmark"></i></button>
                     </div>
 
-                    <p class="post__likes"><a href="">203 likes</a></p>
+                    <p class="post__likes"><button type="button">203 likes</button></p>
 
-                    <a class="post__author" href=""><b>John Doe</b></a>
+                    <a class="post__author" href="#"><b>John Doe</b></a>
 
-                    <a class="post__comments-link" href="">View all 32 comments</a>
+                    <a class="post__comments-link" href="#">View all 32 comments</a>
 
                     <p class="post__time">2 HOURS AGO</p>
 
                     <div class="post__comments">
-                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment">
+                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment" aria-label="Add a comment">
 
-                        <a class="post__comment-button" href=""><button>Post</button></a>
+                        <button class="post__comment-button" type="button">Post</button>
 
                     </div>
                 </div>
 
 
-            </div>
+            </article>
 
-            <div class="post">
+            <article class="post">
                 <div class="post__header">
-                    <a class="post__userimg-link" href=""><img class="post__userimg" src="/assets/images/profile1.png"
+                    <a class="post__userimg-link" href="#" aria-label="View John Doe's profile"><img class="post__userimg" src="/assets/images/profile1.png"
                             alt=""></a>
 
                     <div class="post__userinfo">
-                        <h1 class="post__username"><a href="">John Doe</a></h1>
+                        <p class="post__username"><a href="#">John Doe</a></p>
 
-                        <h2 class="post__location"><a href="">California, USA</a></h2>
+                        <p class="post__location"><a href="#">California, USA</a></p>
                     </div>
                 </div>
 
@@ -274,48 +260,44 @@
                 <div class="post__footer">
                     <div class="post__actions">
                         <div>
-                            <a class="post__icons" href=""><i class="fa-regular fa-heart"
-                                    style="color: rgb(0, 0, 0);"></i></a>
+                            <button class="post__icons" type="button" aria-label="Like this post"><i class="fa-regular fa-heart"></i></button>
 
-                            <a class="post__icons" href=""><i class="fa-regular fa-comment fa-flip-horizontal"
-                                    style="color: rgb(0, 0, 0);"></i></a>
+                            <button class="post__icons" type="button" aria-label="Comment on this post"><i class="fa-regular fa-comment fa-flip-horizontal"></i></button>
 
-                            <a class="post__icons" href=""><i class="fa-regular fa-paper-plane"
-                                    style="color: rgb(0, 0, 0);"></i></a>
+                            <button class="post__icons" type="button" aria-label="Share this post"><i class="fa-regular fa-paper-plane"></i></button>
                         </div>
 
-                        <a class="post__icons" href=""><i class="fa-regular fa-bookmark"
-                                style="color: rgb(0, 0, 0);"></i></a>
+                        <button class="post__icons" type="button" aria-label="Save post"><i class="fa-regular fa-bookmark"></i></button>
                     </div>
 
-                    <p class="post__likes"><a href="">203 likes</a></p>
+                    <p class="post__likes"><button type="button">203 likes</button></p>
 
-                    <a class="post__author" href=""><b>John Doe</b></a>
+                    <a class="post__author" href="#"><b>John Doe</b></a>
 
-                    <a class="post__comments-link" href="">View all 32 comments</a>
+                    <a class="post__comments-link" href="#">View all 32 comments</a>
 
                     <p class="post__time">2 HOURS AGO</p>
 
                     <div class="post__comments">
-                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment">
+                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment" aria-label="Add a comment">
 
-                        <a class="post__comment-button" href=""><button>Post</button></a>
+                        <button class="post__comment-button" type="button">Post</button>
 
                     </div>
                 </div>
 
 
-            </div>
+            </article>
 
-            <div class="post">
+            <article class="post">
                 <div class="post__header">
-                    <a class="post__userimg-link" href=""><img class="post__userimg" src="/assets/images/profile1.png"
+                    <a class="post__userimg-link" href="#" aria-label="View John Doe's profile"><img class="post__userimg" src="/assets/images/profile1.png"
                             alt=""></a>
 
                     <div class="post__userinfo">
-                        <h1 class="post__username"><a href="">John Doe</a></h1>
+                        <p class="post__username"><a href="#">John Doe</a></p>
 
-                        <h2 class="post__location"><a href="">California, USA</a></h2>
+                        <p class="post__location"><a href="#">California, USA</a></p>
                     </div>
                 </div>
 
@@ -324,48 +306,44 @@
                 <div class="post__footer">
                     <div class="post__actions">
                         <div>
-                            <a class="post__icons" href=""><i class="fa-regular fa-heart"
-                                    style="color: rgb(0, 0, 0);"></i></a>
+                            <button class="post__icons" type="button" aria-label="Like this post"><i class="fa-regular fa-heart"></i></button>
 
-                            <a class="post__icons" href=""><i class="fa-regular fa-comment fa-flip-horizontal"
-                                    style="color: rgb(0, 0, 0);"></i></a>
+                            <button class="post__icons" type="button" aria-label="Comment on this post"><i class="fa-regular fa-comment fa-flip-horizontal"></i></button>
 
-                            <a class="post__icons" href=""><i class="fa-regular fa-paper-plane"
-                                    style="color: rgb(0, 0, 0);"></i></a>
+                            <button class="post__icons" type="button" aria-label="Share this post"><i class="fa-regular fa-paper-plane"></i></button>
                         </div>
 
-                        <a class="post__icons" href=""><i class="fa-regular fa-bookmark"
-                                style="color: rgb(0, 0, 0);"></i></a>
+                        <button class="post__icons" type="button" aria-label="Save post"><i class="fa-regular fa-bookmark"></i></button>
                     </div>
 
-                    <p class="post__likes"><a href="">203 likes</a></p>
+                    <p class="post__likes"><button type="button">203 likes</button></p>
 
-                    <a class="post__author" href=""><b>John Doe</b></a>
+                    <a class="post__author" href="#"><b>John Doe</b></a>
 
-                    <a class="post__comments-link" href="">View all 32 comments</a>
+                    <a class="post__comments-link" href="#">View all 32 comments</a>
 
                     <p class="post__time">2 HOURS AGO</p>
 
                     <div class="post__comments">
-                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment">
+                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment" aria-label="Add a comment">
 
-                        <a class="post__comment-button" href=""><button>Post</button></a>
+                        <button class="post__comment-button" type="button">Post</button>
 
                     </div>
                 </div>
 
 
-            </div>
+            </article>
         </div>
-        <div class="side">
-            <h1 class="side__title">Suggestions For You</h1>
+        <aside class="side">
+            <h2 class="side__title">Suggestions For You</h2>
 
             <div class="suggestions">
                 <div class="suggestion">
                     <div class="suggestion__user">
-                        <a href=""><img class="suggestion__image" src="/assets/images/profile1.png" alt="profile-picture"></a>
+                        <a href="#" aria-label="View John Doe's profile"><img class="suggestion__image" src="/assets/images/profile1.png" alt="profile-picture"></a>
                         <div class="suggestion__info">
-                            <h2 class="suggestion__name"><a href="#">John Doe</a></h2>
+                            <p class="suggestion__name"><a href="#">John Doe</a></p>
 
                             <p class="suggestion__relation">Follows You</p>
                         </div>
@@ -376,10 +354,10 @@
 
                 <div class="suggestion">
                     <div class="suggestion__user">
-                         <a href=""><img class="suggestion__image" src="/assets/images/profile1.png" alt="profile-picture"></a>
+                         <a href="#" aria-label="View John Doe's profile"><img class="suggestion__image" src="/assets/images/profile1.png" alt="profile-picture"></a>
 
                         <div class="suggestion__info">
-                            <h2 class="suggestion__name"><a href="#">John Doe</a></h2>
+                            <p class="suggestion__name"><a href="#">John Doe</a></p>
 
                             <p class="suggestion__relation">Follows You</p>
                         </div>
@@ -390,10 +368,10 @@
 
                 <div class="suggestion">
                     <div class="suggestion__user">
-                         <a href=""><img class="suggestion__image" src="/assets/images/profile1.png" alt="profile-picture"></a>
+                         <a href="#" aria-label="View John Doe's profile"><img class="suggestion__image" src="/assets/images/profile1.png" alt="profile-picture"></a>
 
                         <div class="suggestion__info">
-                            <h2 class="suggestion__name"><a href="#">John Doe</a></h2>
+                            <p class="suggestion__name"><a href="#">John Doe</a></p>
 
                             <p class="suggestion__relation">Follows You</p>
                         </div>
@@ -404,10 +382,10 @@
 
                 <div class="suggestion">
                     <div class="suggestion__user">
-                         <a href=""><img class="suggestion__image" src="/assets/images/profile1.png" alt="profile-picture"></a>
+                         <a href="#" aria-label="View John Doe's profile"><img class="suggestion__image" src="/assets/images/profile1.png" alt="profile-picture"></a>
 
                         <div class="suggestion__info">
-                            <h2 class="suggestion__name"><a href="#">John Doe</a></h2>
+                            <p class="suggestion__name"><a href="#">John Doe</a></p>
 
                             <p class="suggestion__relation">Follows You</p>
                         </div>
@@ -418,10 +396,10 @@
 
                 <div class="suggestion">
                     <div class="suggestion__user">
-                         <a href=""><img class="suggestion__image" src="/assets/images/profile1.png" alt="profile-picture"></a>
+                         <a href="#" aria-label="View John Doe's profile"><img class="suggestion__image" src="/assets/images/profile1.png" alt="profile-picture"></a>
 
                         <div class="suggestion__info">
-                            <h2 class="suggestion__name"><a href="#">John Doe</a></h2>
+                            <p class="suggestion__name"><a href="#">John Doe</a></p>
 
                             <p class="suggestion__relation">Follows You</p>
                         </div>
@@ -447,7 +425,7 @@
 
                 <p class="side__footer-copyright">© 2023 INSTAGRAM FROM FACEBOOK</p>
             </footer>
-        </div>
+        </aside>
     </main>
 
 </body>
