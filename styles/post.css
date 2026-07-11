@@ -1,0 +1,88 @@
+.post {
+    border: 0.1vh solid rgba(59, 57, 57, 0.164);
+    border-style: outset;
+    background-color: white;
+    margin: 2vh 0;;
+}
+
+.post__header {
+    display: flex;
+    flex-direction: row;
+    padding: 1vh;
+    
+}
+
+.post__userimg {
+    width: 5vh;
+    height: auto;
+    margin-right: 1vh;
+    background: linear-gradient( 45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    border-radius: 50%;
+    padding: 0.1vh;
+}
+
+.post__userinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.post__username {
+    font-size: 2vh;
+}
+
+.post__location {
+    font-size: 1.3vh;
+}
+
+.post__image {
+    
+}
+
+.post__footer {
+    padding: 2vh 1vh;
+}
+
+.post__actions {
+    font-size: 2.9vh;
+    display: flex;
+    justify-content:space-between;
+}
+
+.post__icons {
+}
+
+.post__likes {
+    
+}
+
+.post__author {
+    
+}
+
+.post__comments-link {
+    display: block;
+}
+
+.post__time {
+    color: grey;
+    font-size: 0.8rem;
+    margin-bottom: 2vh;
+}
+
+.post__comments {
+    margin: 0 auto;
+    padding: 1vh;
+    border-top: 1px solid rgba(128, 128, 128, 0.356);
+    display: flex;
+    justify-content: space-between;
+}
+
+.post__comment-box {
+    border: 0
+}
+
+.post__comment-button {
+    color: rgb(9, 71, 90);
+    font-weight: 550;
+    margin-right: 1vh;
+}

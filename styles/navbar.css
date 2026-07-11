@@ -1,6 +1,6 @@
 .nav {
     border: 1px solid grey;
-    padding: 2vh 2vh 1vh 2vh;
+    padding: 2vh 12.5% 1vh 12.5%;
 }
 
 .nav__list {
@@ -32,8 +32,5 @@
 .nav__list-item img {
     width: 5vh;
     height: auto;
-}
-
-.profilepicture {
     border-radius: 50%;
 }

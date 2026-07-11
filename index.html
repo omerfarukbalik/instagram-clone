@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,39 +9,442 @@
     <link rel="stylesheet" href="styles/mainPage.css">
     <script src="https://kit.fontawesome.com/8c623f40ff.js" crossorigin="anonymous"></script>
 </head>
-    <body>
-        <header class="header">
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__list-item">
-                        <i class="fa-brands fa-instagram" style="color: rgb(0, 0, 0);"></i>
-                    </li>
 
-                    <li class="nav__list-item">
-                        <label for="search"> 
-                            <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0);"></i> 
-                            
-                            Search
-                        </label>
-                    </li>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__list-item">
+                    <a href="#"><i class="fa-brands fa-instagram" style="color: rgb(0, 0, 0);"></i></a>
+                </li>
 
-                    <li class="nav__list-item">c</li>
-                </ul>
-            </nav>
-        </header>
+                <li class="nav__list-item">
+                    <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0);"></i>
 
-        <main class="main">
-            <div class="feed">
-                <div class="story"></div>
+                    <input type="text" name="searchbar" placeholder="Search">
+                </li>
 
-                <div class="post"></div>
+                <li class="nav__list-item">
+                    <a href="#"><img class="profilepicture" src="/assets/images/profile1.png" alt="profile-picture"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="feed">
+            <div class="story">
+                <a class="story__img" href=""><img src="/assets/images/profile1.png" alt=""></a>
+
+                <a class="story__img" href=""><img src="/assets/images/profile1.png" alt=""></a>
+
+                <a class="story__img" href=""><img src="/assets/images/profile1.png" alt=""></a>
+
+                <a class="story__img" href=""><img src="/assets/images/profile1.png" alt=""></a>
+
+                <a class="story__img" href=""><img src="/assets/images/profile1.png" alt=""></a>
+
+                <a class="story__img" href=""><img src="/assets/images/profile1.png" alt=""></a>
+
+                <a class="story__img" href=""><img src="/assets/images/profile1.png" alt=""></a>
             </div>
 
-            <div class="side"></div>
-        </main>
+            <div class="post">
+                <div class="post__header">
+                    <a class="post__userimg-link" href=""><img class="post__userimg" src="/assets/images/profile1.png"
+                            alt=""></a>
 
-        <footer class="footer">
+                    <div class="post__userinfo">
+                        <h1 class="post__username"><a href="">John Doe</a></h1>
 
-        </footer>
-    </body>
+                        <h2 class="post__location"><a href="">California, USA</a></h2>
+                    </div>
+                </div>
+
+                <img class="post__image" src="/assets/images/instagram-post.svg" alt="">
+
+                <div class="post__footer">
+                    <div class="post__actions">
+                        <div>
+                            <a class="post__icons" href=""><i class="fa-regular fa-heart"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+
+                            <a class="post__icons" href=""><i class="fa-regular fa-comment fa-flip-horizontal"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+
+                            <a class="post__icons" href=""><i class="fa-regular fa-paper-plane"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+                        </div>
+
+                        <a class="post__icons" href=""><i class="fa-regular fa-bookmark"
+                                style="color: rgb(0, 0, 0);"></i></a>
+                    </div>
+
+                    <p class="post__likes"><a href="">203 likes</a></p>
+
+                    <a class="post__author" href=""><b>John Doe</b></a>
+
+                    <a class="post__comments-link" href="">View all 32 comments</a>
+
+                    <p class="post__time">2 HOURS AGO</p>
+
+                    <div class="post__comments">
+                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment">
+
+                        <a class="post__comment-button" href=""><button>Post</button></a>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="post">
+                <div class="post__header">
+                    <a class="post__userimg-link" href=""><img class="post__userimg" src="/assets/images/profile1.png"
+                            alt=""></a>
+
+                    <div class="post__userinfo">
+                        <h1 class="post__username"><a href="">John Doe</a></h1>
+
+                        <h2 class="post__location"><a href="">California, USA</a></h2>
+                    </div>
+                </div>
+
+                <img class="post__image" src="/assets/images/instagram-post.svg" alt="">
+
+                <div class="post__footer">
+                    <div class="post__actions">
+                        <div>
+                            <a class="post__icons" href=""><i class="fa-regular fa-heart"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+
+                            <a class="post__icons" href=""><i class="fa-regular fa-comment fa-flip-horizontal"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+
+                            <a class="post__icons" href=""><i class="fa-regular fa-paper-plane"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+                        </div>
+
+                        <a class="post__icons" href=""><i class="fa-regular fa-bookmark"
+                                style="color: rgb(0, 0, 0);"></i></a>
+                    </div>
+
+                    <p class="post__likes"><a href="">203 likes</a></p>
+
+                    <a class="post__author" href=""><b>John Doe</b></a>
+
+                    <a class="post__comments-link" href="">View all 32 comments</a>
+
+                    <p class="post__time">2 HOURS AGO</p>
+
+                    <div class="post__comments">
+                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment">
+
+                        <a class="post__comment-button" href=""><button>Post</button></a>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="post">
+                <div class="post__header">
+                    <a class="post__userimg-link" href=""><img class="post__userimg" src="/assets/images/profile1.png"
+                            alt=""></a>
+
+                    <div class="post__userinfo">
+                        <h1 class="post__username"><a href="">John Doe</a></h1>
+
+                        <h2 class="post__location"><a href="">California, USA</a></h2>
+                    </div>
+                </div>
+
+                <img class="post__image" src="/assets/images/instagram-post.svg" alt="">
+
+                <div class="post__footer">
+                    <div class="post__actions">
+                        <div>
+                            <a class="post__icons" href=""><i class="fa-regular fa-heart"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+
+                            <a class="post__icons" href=""><i class="fa-regular fa-comment fa-flip-horizontal"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+
+                            <a class="post__icons" href=""><i class="fa-regular fa-paper-plane"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+                        </div>
+
+                        <a class="post__icons" href=""><i class="fa-regular fa-bookmark"
+                                style="color: rgb(0, 0, 0);"></i></a>
+                    </div>
+
+                    <p class="post__likes"><a href="">203 likes</a></p>
+
+                    <a class="post__author" href=""><b>John Doe</b></a>
+
+                    <a class="post__comments-link" href="">View all 32 comments</a>
+
+                    <p class="post__time">2 HOURS AGO</p>
+
+                    <div class="post__comments">
+                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment">
+
+                        <a class="post__comment-button" href=""><button>Post</button></a>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="post">
+                <div class="post__header">
+                    <a class="post__userimg-link" href=""><img class="post__userimg" src="/assets/images/profile1.png"
+                            alt=""></a>
+
+                    <div class="post__userinfo">
+                        <h1 class="post__username"><a href="">John Doe</a></h1>
+
+                        <h2 class="post__location"><a href="">California, USA</a></h2>
+                    </div>
+                </div>
+
+                <img class="post__image" src="/assets/images/instagram-post.svg" alt="">
+
+                <div class="post__footer">
+                    <div class="post__actions">
+                        <div>
+                            <a class="post__icons" href=""><i class="fa-regular fa-heart"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+
+                            <a class="post__icons" href=""><i class="fa-regular fa-comment fa-flip-horizontal"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+
+                            <a class="post__icons" href=""><i class="fa-regular fa-paper-plane"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+                        </div>
+
+                        <a class="post__icons" href=""><i class="fa-regular fa-bookmark"
+                                style="color: rgb(0, 0, 0);"></i></a>
+                    </div>
+
+                    <p class="post__likes"><a href="">203 likes</a></p>
+
+                    <a class="post__author" href=""><b>John Doe</b></a>
+
+                    <a class="post__comments-link" href="">View all 32 comments</a>
+
+                    <p class="post__time">2 HOURS AGO</p>
+
+                    <div class="post__comments">
+                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment">
+
+                        <a class="post__comment-button" href=""><button>Post</button></a>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="post">
+                <div class="post__header">
+                    <a class="post__userimg-link" href=""><img class="post__userimg" src="/assets/images/profile1.png"
+                            alt=""></a>
+
+                    <div class="post__userinfo">
+                        <h1 class="post__username"><a href="">John Doe</a></h1>
+
+                        <h2 class="post__location"><a href="">California, USA</a></h2>
+                    </div>
+                </div>
+
+                <img class="post__image" src="/assets/images/instagram-post.svg" alt="">
+
+                <div class="post__footer">
+                    <div class="post__actions">
+                        <div>
+                            <a class="post__icons" href=""><i class="fa-regular fa-heart"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+
+                            <a class="post__icons" href=""><i class="fa-regular fa-comment fa-flip-horizontal"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+
+                            <a class="post__icons" href=""><i class="fa-regular fa-paper-plane"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+                        </div>
+
+                        <a class="post__icons" href=""><i class="fa-regular fa-bookmark"
+                                style="color: rgb(0, 0, 0);"></i></a>
+                    </div>
+
+                    <p class="post__likes"><a href="">203 likes</a></p>
+
+                    <a class="post__author" href=""><b>John Doe</b></a>
+
+                    <a class="post__comments-link" href="">View all 32 comments</a>
+
+                    <p class="post__time">2 HOURS AGO</p>
+
+                    <div class="post__comments">
+                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment">
+
+                        <a class="post__comment-button" href=""><button>Post</button></a>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="post">
+                <div class="post__header">
+                    <a class="post__userimg-link" href=""><img class="post__userimg" src="/assets/images/profile1.png"
+                            alt=""></a>
+
+                    <div class="post__userinfo">
+                        <h1 class="post__username"><a href="">John Doe</a></h1>
+
+                        <h2 class="post__location"><a href="">California, USA</a></h2>
+                    </div>
+                </div>
+
+                <img class="post__image" src="/assets/images/instagram-post.svg" alt="">
+
+                <div class="post__footer">
+                    <div class="post__actions">
+                        <div>
+                            <a class="post__icons" href=""><i class="fa-regular fa-heart"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+
+                            <a class="post__icons" href=""><i class="fa-regular fa-comment fa-flip-horizontal"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+
+                            <a class="post__icons" href=""><i class="fa-regular fa-paper-plane"
+                                    style="color: rgb(0, 0, 0);"></i></a>
+                        </div>
+
+                        <a class="post__icons" href=""><i class="fa-regular fa-bookmark"
+                                style="color: rgb(0, 0, 0);"></i></a>
+                    </div>
+
+                    <p class="post__likes"><a href="">203 likes</a></p>
+
+                    <a class="post__author" href=""><b>John Doe</b></a>
+
+                    <a class="post__comments-link" href="">View all 32 comments</a>
+
+                    <p class="post__time">2 HOURS AGO</p>
+
+                    <div class="post__comments">
+                        <input class="post__comment-box" type="text" name="postcomment" placeholder="Add a comment">
+
+                        <a class="post__comment-button" href=""><button>Post</button></a>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="side">
+            <h1 class="side__title">Suggestions For You</h1>
+
+            <div class="suggestions">
+                <div class="suggestion">
+                    <div class="suggestion__user">
+                        <a href=""><img class="suggestion__image" src="/assets/images/profile1.png" alt="profile-picture"></a>
+                        <div class="suggestion__info">
+                            <h2 class="suggestion__name"><a href="#">John Doe</a></h2>
+
+                            <p class="suggestion__relation">Follows You</p>
+                        </div>
+                    </div>
+
+                    <button class="suggestion__button" type="button">follow</button>
+                </div>
+
+                <div class="suggestion">
+                    <div class="suggestion__user">
+                         <a href=""><img class="suggestion__image" src="/assets/images/profile1.png" alt="profile-picture"></a>
+
+                        <div class="suggestion__info">
+                            <h2 class="suggestion__name"><a href="#">John Doe</a></h2>
+
+                            <p class="suggestion__relation">Follows You</p>
+                        </div>
+                    </div>
+
+                    <button class="suggestion__button" type="button">follow</button>
+                </div>
+
+                <div class="suggestion">
+                    <div class="suggestion__user">
+                         <a href=""><img class="suggestion__image" src="/assets/images/profile1.png" alt="profile-picture"></a>
+
+                        <div class="suggestion__info">
+                            <h2 class="suggestion__name"><a href="#">John Doe</a></h2>
+
+                            <p class="suggestion__relation">Follows You</p>
+                        </div>
+                    </div>
+
+                    <button class="suggestion__button" type="button">follow</button>
+                </div>
+
+                <div class="suggestion">
+                    <div class="suggestion__user">
+                         <a href=""><img class="suggestion__image" src="/assets/images/profile1.png" alt="profile-picture"></a>
+
+                        <div class="suggestion__info">
+                            <h2 class="suggestion__name"><a href="#">John Doe</a></h2>
+
+                            <p class="suggestion__relation">Follows You</p>
+                        </div>
+                    </div>
+
+                    <button class="suggestion__button" type="button">follow</button>
+                </div>
+
+                <div class="suggestion">
+                    <div class="suggestion__user">
+                         <a href=""><img class="suggestion__image" src="/assets/images/profile1.png" alt="profile-picture"></a>
+
+                        <div class="suggestion__info">
+                            <h2 class="suggestion__name"><a href="#">John Doe</a></h2>
+
+                            <p class="suggestion__relation">Follows You</p>
+                        </div>
+                    </div>
+
+                    <button class="suggestion__button" type="button">follow</button>
+                </div>
+            </div>
+
+            <footer class="side__footer">
+                <ul class="side__footer-list">
+                    <li class="side__footer-item"><a href="#">About</a></li>
+                    <li class="side__footer-item"><a href="#">Help</a></li>
+                    <li class="side__footer-item"><a href="#">API</a></li>
+                    <li class="side__footer-item"><a href="#">Jobs</a></li>
+                    <li class="side__footer-item"><a href="#">Privacy</a></li>
+                    <li class="side__footer-item"><a href="#">Terms</a></li>
+                    <li class="side__footer-item"><a href="#">Locations</a></li>
+                    <li class="side__footer-item"><a href="#">Top Accounts</a></li>
+                    <li class="side__footer-item"><a href="#">Hashtags</a></li>
+                    <li class="side__footer-item"><a href="#">Language</a></li>
+                </ul>
+
+                <p class="side__footer-copyright">2026 INSTAGRAM FROM META</p>
+            </footer>
+        </div>
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+</body>
+
 </html>

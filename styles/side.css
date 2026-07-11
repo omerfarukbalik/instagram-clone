@@ -1,0 +1,54 @@
+.side {
+    width: 40%;
+    padding: 2vh;
+}
+
+.side__title {
+    font-size: 1.2rem;
+}
+
+.suggestions {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.suggestion {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1vh;
+    margin-bottom: 1vh;
+}
+
+.suggestion__user {
+    display: flex;
+}
+
+.suggestion__image {
+    width: 5vh;
+    height: auto;
+    margin-right: 1vh;
+    background: linear-gradient( 45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    border-radius: 50%;
+    padding: 0.1vh;
+}
+
+.suggestion__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.suggestion__name {
+    font-size: 1rem;
+}
+
+.suggestion__relation {
+    font-size: 0.8rem;
+}
+
+.suggestion__button {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(14, 106, 148);
+}
